@@ -1,0 +1,361 @@
+header{
+    background-color: #1d1d1d;
+    width: 100%;
+    position: fixed;
+    height: 100px;
+    z-index: 1;
+}
+.logo1{
+    margin-left: 50px;
+    position: relative;
+    top: 20px;
+}
+.logo1{
+    transition: transform 0.5s ease;
+}
+.logo img:hover{
+    transform: rotate(60deg);
+}
+header nav{
+   position: relative;
+   margin-left: 400px;
+   bottom: 20px;
+   
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    /* justify-content: space-between; */
+    margin: 15px;
+   
+}
+nav:hover{
+    /* border: 2px solid black; */
+    transform: scale(1.5);
+    /* text-decoration: underline; */
+    color: blue;
+    transition: transform 0.5s ease;
+}
+
+.cart{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: 6px;
+}
+.cart:hover{
+    color: blue;
+}
+a:hover{
+    color: blue;
+} 
+section img{
+    position: relative;
+    top:100px ;
+    filter: blur(0.5px);
+}
+h1{
+    color: rgba(198, 27, 172, 0.65);
+    position: relative;
+    bottom: 300px;
+    z-index: 1;
+    text-align: center;
+    font-size: 40px;
+}
+button{
+    position: relative;
+    bottom: 250px;
+    margin-left: 250px;
+    padding: 10px 10px;
+    border-radius: 50px;
+    color:white;
+    background-color: burlywood;
+    border-color: rgb(115, 0, 128);
+    transform: rotateX('20deg');
+}
+button:hover{
+    color: blue;
+}
+div.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    column-gap: 20px;
+    position: relative;
+    left: 40px;
+    bottom: 100px;
+}
+div.imgItem{
+    border: 100px;
+
+}
+div.container:hover{
+    border: 2px solid greenyellow;
+    transform: translateX(50px);
+    text-decoration: underline;
+    transition: transform 0.5s ease;
+
+}
+div.Names{
+   display: grid;
+   grid-template-columns:auto auto auto auto auto auto ;
+   column-gap: 20px;
+   position: relative;
+   left: 40px;
+   bottom: 80px;
+   font-size: 20px;
+   font-weight: bold;
+   color:turquoise;
+}
+fieldset{
+    background-color: lightseagreen;
+}
+aside.one{
+  display: grid;
+  grid-template-columns: 300px auto ;
+  position: relative;
+  bottom: 200px;
+}
+aside h2{
+    color: lightcoral;
+}
+input.book{
+    background-color: orange;
+    color: snow;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    left: 30px;
+}
+input.book:hover{
+    color: aquamarine;
+}
+div.container2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    position: relative;
+    top: 200px;
+    left: 400px;
+    
+}
+div.img{
+    column-gap: 10px;
+}
+b{
+    text-align: center;
+    position: relative;
+    left: 600px;
+    font-size: 20px;
+    background-color: aqua;
+    text-decoration: underline;
+
+}
+p{
+    text-align: center;
+    position: relative;
+    left: 150px;
+    line-height: 30px;
+   
+}
+h4{
+    position: relative;
+    left: 15px;
+    color: gold;
+    text-decoration: underline;
+}
+div.last h5{
+    position: relative;
+    left: 600px;
+    bottom: 200px;
+    font-size: 20px;
+   background-color: aquamarine;
+   display: inline;
+}
+div.last em{
+    position: relative;
+    text-align: justify;
+    bottom: 150px;
+    color: cornflowerblue;
+    background-color: beige;
+}
+div.silver{
+    display: grid;
+    grid-template-columns: 300px auto;
+    position: relative;
+    left: 150px;
+}
+.silver fieldset{
+    background-color: silver;
+}
+div.silver:hover{
+        /* border: 2px solid gold; */
+        transform: translatey(20px);
+        text-decoration: underline;
+        transition: transform 0.5s ease;
+    
+}
+div.gold{
+    display: grid;
+    grid-template-columns:300px auto auto auto;
+    position: relative;
+    left: 800px;
+    bottom: 520px;
+    
+}
+div.gold:hover{
+    /* border: 2px solid gold; */
+    transform: translateX(20px);
+    text-decoration: underline;
+    transition: transform 0.5s ease;
+
+}
+.gold fieldset{
+    background-color: gold;
+}
+div.protfolio h6{
+    position: relative;
+    left: 600px;
+    bottom: 400px;
+    font-size: 30px;
+   background-color: rgb(255, 127, 214);
+   display: inline;
+}
+div.protfolio em{
+    position: relative;
+    left: 100px;
+    bottom: 300px;
+    background-color: indianred;
+}
+div.p1{
+    display: grid;
+    grid-template-columns: 300px;
+    position: relative;
+    left: 10px;
+    bottom: 200px;
+}
+.p1 img{
+    position: relative;
+    left: 20px;
+}
+div.p1 img:hover{
+    transform: translateX(20px);
+    text-decoration: underline;
+    transition: transform 0.5s ease;
+    color: black;
+}
+div.p2{
+    display: grid;
+    grid-template-columns: 300px;
+    position: relative;
+    left: 450px;
+    bottom:655px ;
+}
+.p2 img{
+    position: relative;
+    left: 20px;
+}
+div.p2 img:hover{
+    transform: scale(1.2);
+    transform : transform 0.5s ease;
+}
+div.p3{
+    display: grid;
+    grid-template-columns: 300px;
+   position: relative;
+   left: 900px;
+   bottom: 1120px;
+}
+.p3 img{
+    position: relative;
+    left: 20px;
+}
+div.p3 img:hover{
+    transform: translateY(20px);
+    text-decoration: underline;
+    transition: transform 0.5s ease;
+
+}
+.protfolio strong{
+    font-size: 10px;
+    background-color: bisque;
+    position: relative;
+    left: 20px;
+}
+.protfolio p{
+    background-color: chocolate;
+    position: relative;
+    left: 5px;
+}
+.protfolio button{
+    position: relative;
+    left: 240px;
+    bottom: 1000px;
+    background-color: orangered;
+    color: white;
+    padding: 15px 15px;
+}
+.protfolio button:hover{
+    transform: scale(1.2);
+    transform : transform 0.5s ease;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 500px;
+    text-align: center;
+    position: relative;
+    bottom: 1000px;
+}
+.Contactus h1{
+    color:whitesmoke;
+    position: relative;
+    top: 10px;
+
+}
+.Contactus h4{
+    color: white;
+    text-decoration: none;
+}
+.Contactus a{
+    text-decoration: none;
+    color: whitesmoke;   
+}
+.Contactus a:hover{
+    color: darkkhaki;
+    transform: scale(1.2);
+    transition : transform 0.5s ease;
+    
+}
+a.green:hover{
+    color: green;
+}
+.footer{
+    padding: 40px 0;
+    background-color:black;
+    position: relative;
+    left: 480px;
+    bottom: 1200px;
+}
+.footer.social{
+    text-align: center;
+    padding-bottom: 24px;
+    color: #4b4c4d;
+
+}
+.footer .social a{
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+   
+}
+.footer .social a:hover{
+    color: darkcyan;
+    opacity: 0.9;
+}
